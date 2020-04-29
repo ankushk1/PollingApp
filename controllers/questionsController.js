@@ -7,8 +7,6 @@ module.exports = {
   //create question
   create: async (req, res) => {
     try {
-
-
       let question = await Question.create({
         title: req.body.title
       });
